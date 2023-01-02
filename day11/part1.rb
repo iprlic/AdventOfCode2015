@@ -3,8 +3,6 @@
 
 file_path = File.expand_path('input.txt', __dir__)
 input = File.read(file_path)
-#input = "ghijklmn"
-
 
 def increment_password(password)
     password = password.reverse
